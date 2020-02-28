@@ -1,0 +1,102 @@
+body{
+    font-family:'Indie Flower',cursive;
+    <!--background: url("../img/espresso-ground-coffee-beans-1296x728.jpg") fixed;-->
+}
+
+header{
+    height: 100vh;
+    background: url("../img/espresso-ground-coffee-beans-1296x728.jpg") fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+.banner-underline{
+
+
+    width: 300px;
+border: 3px solid orangered;
+    margin: 0px auto 20px;
+}
+.banner-center a{
+
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.border-center a:hover,
+.banner-center a:focus{
+    color: orangered;
+
+    background-color: whitesmoke;
+}
+
+.title{
+    margin: 20px 0px;
+}
+.title-underline{
+    width: 150px;
+    border: 3px solid orangered;
+    margin: 0px auto 10px auto;
+
+
+}
+#skills{
+
+    padding: 40px;
+    color: firebrick;
+}
+#skills .fa{
+    font-size: 100px;
+    margin-bottom: 10px;
+
+}
+#skills a{
+    margin-bottom: 20px;
+    background-color: firebrick;
+    color:black;
+}
+#skills a:hover{
+
+    background-color: grey;
+}
+#about{
+    background-color: #2D3142;
+    color: whitesmoke;
+}
+#about .pic{
+    height: 500px;
+    background-image: url("../img/Coffee1-banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 500px solid transparent;
+    border-left: 100px #2D3142 solid ;
+}
+#contact{
+      padding: 40px;
+    background-color: whitesmoke;
+}
+#footer{
+
+    padding: 40px;
+    color:whitesmoke;
+    background-color: #2D3142;
+}
+.footer-icons{
+    font-size: 30px;
+}
